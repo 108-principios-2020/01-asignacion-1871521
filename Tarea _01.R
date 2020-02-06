@@ -20,6 +20,8 @@ cedro_rojo <- subset(conjunto, conjunto$Especie == "C")
 Tsuga_heterofila <- subset(conjunto, conjunto$Especie == "H")
 Douglasia_verde <- subset(conjunto, conjunto$Especie == "F")
 
+HyF <- rbind(Tsuga_heterofila, Douglasia_verde)
+
 
 # Cuantas observaciones son menores o iguales a 16.9 cm de diametro
 
